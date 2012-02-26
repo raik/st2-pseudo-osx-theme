@@ -1,6 +1,6 @@
 # Pseudo OSX theme
 **OS X UI theme for Sublime Text 2**
-![Pseudo OSX theme](http://raik.github.com/st2-pseudo-osx-theme/screenshot.jpg)
+![Pseudo OSX theme](https://github.com/raik/st2-pseudo-osx-theme/raw/master/screenshot.png)
 
 The theme is largely based on the excellent [Soda theme by Ian Hill](https://github.com/buymeasoda/soda-theme).
 
