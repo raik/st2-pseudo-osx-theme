@@ -134,7 +134,7 @@
 	{
 		//	- Tab close hover action
 		"class": "tab_close_button",
-		"attributes": ["hover"],
+		"parents": [{"class": "tab_control", "attributes": ["hover"]}],
 		"layer0.opacity": 0.0,
 		"layer1.opacity": 1.0
 	},
