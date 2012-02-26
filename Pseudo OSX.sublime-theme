@@ -502,7 +502,7 @@
 	{
 		"class": "disclosure_button_control",
 		"parents": [{"class": "tree_row", "attributes": ["selected"]}],
-		"layer0.texture": "Theme - Pseudo OSX/assets/arrow-right-selected.png"
+		"layer0.texture": "Theme - Pseudo OSX/assets/arrow-right-hover.png"
 	},
 
 	//	- Sidebar group open
@@ -521,7 +521,7 @@
 		"class": "disclosure_button_control",
 		"attributes": ["expanded"],
 		"parents": [{"class": "tree_row", "attributes": ["selected"]}],
-		"layer0.texture": "Theme - Pseudo OSX/assets/arrow-down-selected.png"
+		"layer0.texture": "Theme - Pseudo OSX/assets/arrow-down-hover.png"
 	},
 
 
