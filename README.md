@@ -10,20 +10,29 @@ So I mainly didn't do anything.
 
 ## Installation
 
-For now you can download or clone it from here... if someone founds this theme useful I could try to put it on Package Control
+For now you can download or clone it from here.
 
 ### Manually downloading
 Rename the folder to `Theme - Pseudo OSX` and put it in your `Packages` directory
 
 ### Activating
-
+#### Default
 In your Settings - User file:
 
     {
         "theme": "Pseudo OSX.sublime-theme"
     }
 
+#### Light
+In your Settings - User file:
+
+    {
+        "theme": "Pseudo OSX Light.sublime-theme"
+    }
+
+
 ## TODO *(maybe)*
 
+* ~~Light version~~
 * Search icons need some reconsidering
 * New scrollbars

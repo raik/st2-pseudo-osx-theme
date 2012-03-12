@@ -1,6 +1,7 @@
 [
 
 //	Pseudo OSX theme for Sublime Text 2
+//	(light version)
 //	https://github.com/raik/st2-pseudo-osx-theme
 //
 //
@@ -315,7 +316,7 @@
 	{
 		"class": "grid_layout_control",
 		"border_size": 1,
-		"border_color": [47, 47, 47]
+		"border_color": [185, 185, 185]
 	},
 
 
@@ -404,7 +405,7 @@
 	//	- Sidebar container (border)
 	{
 		"class": "sidebar_container",
-		"layer0.tint": [110, 110, 110], 
+		"layer0.tint": [180, 180, 180], 
 		"layer0.opacity": 1.0,
 		"layer0.draw_center": false,
 		"layer0.inner_margin": [0, 0, 1, 0],
@@ -417,17 +418,16 @@
 		"indent": 15,
 		"indent_offset": 15,
 		"indent_top_level": false,
-		// "layer0.tint": [236, 236, 236],	// light gray
-		// "layer0.tint": [214, 221, 229],	// finder sidebar light blue
-		// "layer0.tint": [240, 240, 240],	// dark gray (old)
-		"layer0.tint": [210, 210, 210],	// darker gray
+		"layer0.tint": [236, 236, 236],		// light gray
+		// "layer0.tint": [214, 221, 228],	// finder sidebar light blue
+		// "layer0.tint": [220, 220, 220],	// dark gray
 		"layer0.opacity": 1.0,
 		"dark_content": false
 	},
 	//	- Sidebar rows
 	{
 		"class": "tree_row",
-		"layer0.tint": [176, 176, 176], 
+		"layer0.tint": [200, 200, 200], 
 		"layer0.opacity": 0.0
 	},
 	//	- Sidebar row selected
@@ -439,35 +439,35 @@
 	//	- Sidebar heading
 	{
 		"class": "sidebar_heading",
-		"color": [80, 80, 80],
+		"color": [150, 150, 150],
 		"font.bold": true,
-		"shadow_color": [223, 223, 223],
+		"shadow_color": [243, 243, 243],
 		"shadow_offset": [0, 1]
 	},
 	{
 		"class": "sidebar_heading",
 		"parents": [{"class": "tree_row", "attributes": ["selected"]}],
-		"color": [80, 80, 80]
+		"color": [210, 210, 210]
 	},
 	//	- Sidebar entry label
 	{
 		"class": "sidebar_label",
-		"color": [15, 15, 15],
-		"shadow_color": [227, 227, 227],
+		"color": [35, 35, 35],
+		"shadow_color": [240, 240, 240],
 		"shadow_offset": [0, 1]
 	},
 	{	//	Sidebar selected entry label
 		"class": "sidebar_label",
 		"parents": [{"class": "tree_row", "attributes": ["selected"]}],
 		"color": [10, 10, 10],
-		"shadow_color": [200, 200, 200],
+		"shadow_color": [230, 230, 230],
 		"shadow_offset": [0, 1]
 	},
 
 	//	- Sidebar open files close/dirty
 	{
 		"class": "close_button",
-		"layer0.texture": "Theme - Pseudo OSX/assets/default/sidebar-close.png",
+		"layer0.texture": "Theme - Pseudo OSX/assets/light/sidebar-close.png",
 		"layer0.opacity": 0.5,
 		"layer0.inner_margin": 0,
 		"content_margin": [8, 8]
@@ -475,13 +475,13 @@
 	{
 		"class": "close_button",
 		"attributes": ["dirty"],
-		"layer0.texture": "Theme - Pseudo OSX/assets/default/sidebar-dirty.png"
+		"layer0.texture": "Theme - Pseudo OSX/assets/light/sidebar-dirty.png"
 	},
 	{
 		"class": "close_button",
 		"attributes": ["hover"],
 		"layer0.opacity": 1.0,
-		"layer0.texture": "Theme - Pseudo OSX/assets/default/sidebar-close.png"
+		"layer0.texture": "Theme - Pseudo OSX/assets/light/sidebar-close.png"
 	},
 
 	//	- Sidebar group closed
@@ -578,7 +578,7 @@
 	//	- Quick panel background
 	{
 		"class": "overlay_control",
-		"layer0.texture": "Theme - Pseudo OSX/assets/default/overlay-bg.png",
+		"layer0.texture": "Theme - Pseudo OSX/assets/light/overlay-bg.png",
 		"layer0.inner_margin": [10, 5, 10, 20],  // left, top, right, bottom 
 		"layer0.opacity": 1.0,		
 		"layer1.opacity": 0, // HIDDEN
@@ -592,29 +592,29 @@
 	{
 		"class": "quick_panel",
 		"row_padding": [4, 3],
-		"layer0.tint": [45, 45, 45],
+		"layer0.tint": [218, 218, 218],
 		"layer0.opacity": 1,
 		"dark_content": true
 	},
 	{
 		"class": "quick_panel_row",
-		"layer0.texture": "Theme - Pseudo OSX/assets/default/qp-row.png",
+		"layer0.texture": "Theme - Pseudo OSX/assets/light/qp-row.png",
 		"layer0.inner_margin": [2, 2, 2, 2],
 		"layer0.opacity": 1.0
 	},
 	{
 		"class": "quick_panel_row",
 		"attributes": ["selected"],
-		"layer0.texture": "Theme - Pseudo OSX/assets/default/qp-row-selected.png"
+		"layer0.texture": "Theme - Pseudo OSX/assets/light/qp-row-selected.png"
 	},
 	{
 		"class": "quick_panel_label",
-		"fg": [190, 190, 190, 255],
-		"match_fg": [255, 255, 255, 255],
+		"fg": [50, 50, 50, 255],
+		"match_fg": [0, 0, 0, 255],
 		"bg": [71, 71, 71, 255],
-		"selected_fg": [220, 220, 220, 255],
+		"selected_fg": [255, 255, 255, 255],
 		"selected_match_fg": [255, 255, 255, 255],
-		"selected_bg": [134, 134, 134, 255]
+		"selected_bg": [84, 84, 84, 255]
 	},
 	{
 		"class": "quick_panel_path_label",
@@ -639,14 +639,14 @@
 
 	{
 		"class": "mini_quick_panel_row",
-		"layer0.texture": "Theme - Pseudo OSX/assets/default/qp-row.png",
+		"layer0.texture": "Theme - Pseudo OSX/assets/light/qp-row.png",
 		"layer0.inner_margin": [2, 2, 2, 2],
 		"layer0.opacity": 1.0
 	},
 	{
 		"class": "mini_quick_panel_row",
 		"attributes": ["selected"],
-		"layer0.texture": "Theme - Pseudo OSX/assets/default/qp-row-selected.png"
+		"layer0.texture": "Theme - Pseudo OSX/assets/light/qp-row-selected.png"
 	},
 
 

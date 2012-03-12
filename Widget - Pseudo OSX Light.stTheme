@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>author</key>
+	<string>Raik Ilves</string>
+	<key>comment</key>
+	<string>A widget theme for the UI components of the Pseudo OSX theme.</string>
+	<key>name</key>
+	<string>Pseudo OSX - Widget Theme</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#e6e6e6</string>
+				<key>caret</key>
+				<string>#252525</string>
+				<key>foreground</key>
+				<string>#252525</string>
+				<key>invisibles</key>
+				<string>#212121</string>
+				<key>selection</key>
+				<string>#b5d5ff</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
