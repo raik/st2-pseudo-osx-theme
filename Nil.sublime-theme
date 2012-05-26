@@ -447,12 +447,14 @@
 		"attributes": ["selected"],
 		"layer0.opacity": 1.0
 	},
+	// - Sidebar row dirty
 	{
 		"class": "tree_row",
 		"attributes": ["dirty"],
 		"layer0.texture": "Theme - Nil/assets/row-inactive-modified.png",
 		"layer0.opacity": 1.0
 	},
+	// - Sidebar row selected dirty
 	{
 		"class": "tree_row",
 		"attributes": ["selected", "dirty"],
