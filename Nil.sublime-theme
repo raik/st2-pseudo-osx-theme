@@ -482,6 +482,12 @@
 		"shadow_color": [0, 0, 0],
 		"shadow_offset": [0, 1]
 	},
+	{
+		"class": "sidebar_label",
+		"parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+		"settings": ["bold_folder_labels"],
+		"font.bold": true
+	},
 	{	//	Sidebar selected entry label
 		"class": "sidebar_label",
 		"parents": [{"class": "tree_row", "attributes": ["selected"]}],
