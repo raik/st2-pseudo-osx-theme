@@ -425,13 +425,13 @@
 	{
 		"class": "sidebar_tree",
 		"dark_content": true,
-		"row_padding": [5, 2.5],
+		"row_padding": [8, 3],
 		"indent": 15,
-		"indent_offset": 15,
+		"indent_offset": 13,
 		"indent_top_level": false,
 		"layer0.tint": [32,32,32],	// darker gray
 		"layer0.opacity": 1.0,
-		"dark_content": false
+		"dark_content": true
 	},
 	//	- Sidebar rows
 	{
