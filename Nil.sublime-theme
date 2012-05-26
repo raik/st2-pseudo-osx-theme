@@ -348,7 +348,7 @@
 	{
 		"class": "label_control",
 		"parents": [{"class": "panel_control"}],
-		"shadow_color": [190, 190, 190],
+		"shadow_color": [0, 0, 0],
 		"shadow_offset": [0, 1]
 	},
 	//	- Button labels
