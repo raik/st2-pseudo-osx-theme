@@ -1,7 +1,7 @@
 Nil Theme
 ------------------------------------------------------------------------
 
-![Nil theme](https://github.com/nilium/st2-nil-theme/raw/master/dark.png)
+![Nil theme](https://github.com/nilium/st2-nil-theme/raw/master/dark.png)  
 _Nil UI theme for Sublime Text 2_
 
 Nil is the dark theme for the overall Nil theme package.  Yes, there's
@@ -23,7 +23,7 @@ Overlay scrollbars are kindly borrowed from the default theme.
 Ayin Theme
 ------------------------------------------------------------------------
 
-![Ayin theme](https://github.com/nilium/st2-nil-theme/raw/master/light.png)
+![Ayin theme](https://github.com/nilium/st2-nil-theme/raw/master/light.png)  
 _Ayin UI theme for Sublime Text 2_
 
 Ayin is the light theme of the Nil theme package.  It features a lot of
