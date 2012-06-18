@@ -469,7 +469,7 @@
 	{	//	Sidebar selected entry label
 		"class": "sidebar_label",
 		"parents": [{"class": "tree_row", "attributes": ["selected"]}],
-		"color": [240, 240, 240],
+		"color": [90, 64, 100],
 		"shadow_color": [255, 255, 255, 160],
 		"shadow_offset": [0, 1]
 	},
