@@ -601,7 +601,7 @@
 		"class": "text_line_control",
 		"layer0.texture": "Theme - Nil/assets/dark/text-field.png",
 		"layer0.opacity": 1.0,
-		"layer0.inner_margin": [10, 10, 10, 10],
+		"layer0.inner_margin": [8, 8, 8, 8],
 		"content_margin": [5, 5, 5, 5]
 	},
 
