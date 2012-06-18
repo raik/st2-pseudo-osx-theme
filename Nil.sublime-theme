@@ -35,20 +35,15 @@
 		"max_margin_trim": 0,
 		"hit_test_level": 0.5,
 
-		//	- Inactive tab settings
+		//	Tab texture (default: inactive)
 		"layer0.texture": "Theme - Nil/assets/dark/tab-inactive.png",
 		"layer0.inner_margin": [23, 8],
 		"layer0.opacity": 1.0,
 
-		//	- Active tab setting
-		"layer1.texture": "Theme - Nil/assets/dark/tab-active.png",
-		"layer1.inner_margin": [23, 8],
-		"layer1.opacity": 0.0,
-
-		//	- Hover tab setting
-		"layer2.texture": "Theme - Nil/assets/dark/tab-hover.png",
-		"layer2.inner_margin": [23, 8],
-		"layer2.opacity": 0.0
+		//	Hover texture (default: clean)
+		"layer1.texture": "Theme - Nil/assets/dark/tab-hover.png",
+		"layer1.inner_margin": [14, 10],
+		"layer1.opacity": 0.0
 	},
 	{
 		//	- Tab close state
@@ -60,23 +55,27 @@
 		//	- Hover tab state
 		"class": "tab_control",
 		"attributes": ["hover"],
-		"layer2.opacity": 1.0
+		"layer1.opacity": 1.0
 	},
 	{
 		//	- Active tab state
 		"class": "tab_control",
 		"attributes": ["selected"],
-		"layer0.opacity": 0.0,
-		"layer1.opacity": 1.0,
-		"layer2.opacity": 0.0
+		"layer0.texture": "Theme - Nil/assets/dark/tab-active.png",
+		"layer1.opacity": 0.0
 	},
 	{
 		"class": "tab_control",
 		"settings": ["highlight_modified_tabs"],
 		"attributes": ["dirty"],
 		"layer0.texture": "Theme - Nil/assets/dark/tab-inactive-modified.png",
-		"layer1.texture": "Theme - Nil/assets/dark/tab-active-modified.png",
-		"layer2.texture": "Theme - Nil/assets/dark/tab-hover-dirty.png"
+		"layer1.texture": "Theme - Nil/assets/dark/tab-hover-dirty.png"
+	},
+	{
+		"class": "tab_control",
+		"settings": ["highlight_modified_tabs"],
+		"attributes": ["dirty", "selected"],
+		"layer0.texture": "Theme - Nil/assets/dark/tab-active-modified.png"
 	},
 
 
