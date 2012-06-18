@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>author</key>
-	<string>Raik Ilves</string>
+	<string>Noel Cower</string>
 	<key>comment</key>
-	<string>A widget theme for the UI components of the Pseudo OSX theme.</string>
+	<string>A widget theme for the UI components of the Nil theme.</string>
 	<key>name</key>
-	<string>Pseudo OSX - Widget Theme</string>
+	<string>Nil - Widget Theme</string>
 	<key>settings</key>
 	<array>
 		<dict>
