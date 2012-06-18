@@ -36,12 +36,12 @@
 		"hit_test_level": 0.5,
 
 		//	Tab texture (default: inactive)
-		"layer0.texture": "Theme - Nil/assets/dark/tab-inactive.png",
+		"layer0.texture": "Theme - Nil/assets/dark/tabs/tab-inactive.png",
 		"layer0.inner_margin": [23, 8],
 		"layer0.opacity": 1.0,
 
 		//	Hover texture (default: clean)
-		"layer1.texture": "Theme - Nil/assets/dark/tab-hover.png",
+		"layer1.texture": "Theme - Nil/assets/dark/tabs/tab-hover.png",
 		"layer1.inner_margin": [14, 10],
 		"layer1.opacity": 0.0
 	},
@@ -61,21 +61,21 @@
 		//	- Active tab state
 		"class": "tab_control",
 		"attributes": ["selected"],
-		"layer0.texture": "Theme - Nil/assets/dark/tab-active.png",
+		"layer0.texture": "Theme - Nil/assets/dark/tabs/tab-active.png",
 		"layer1.opacity": 0.0
 	},
 	{
 		"class": "tab_control",
 		"settings": ["highlight_modified_tabs"],
 		"attributes": ["dirty"],
-		"layer0.texture": "Theme - Nil/assets/dark/tab-inactive-modified.png",
-		"layer1.texture": "Theme - Nil/assets/dark/tab-hover-dirty.png"
+		"layer0.texture": "Theme - Nil/assets/dark/tabs/tab-inactive-modified.png",
+		"layer1.texture": "Theme - Nil/assets/dark/tabs/tab-hover-dirty.png"
 	},
 	{
 		"class": "tab_control",
 		"settings": ["highlight_modified_tabs"],
 		"attributes": ["dirty", "selected"],
-		"layer0.texture": "Theme - Nil/assets/dark/tab-active-modified.png"
+		"layer0.texture": "Theme - Nil/assets/dark/tabs/tab-active-modified.png"
 	},
 
 
@@ -123,12 +123,12 @@
 		"content_margin": [0, 0],
 
 		//	- Tab close default settings
-		"layer1.texture": "Theme - Nil/assets/tab-button-close.png",
+		"layer1.texture": "Theme - Nil/assets/dark/tabs/tab-button-close.png",
 		"layer1.opacity": 0.0, // hide by default
 		"layer1.inner_margin": 0.0,
 
 		//	- Tab close hover settings
-		"layer0.texture": "Theme - Nil/assets/tab-button-close-hover.png",
+		"layer0.texture": "Theme - Nil/assets/dark/tabs/tab-button-close-hover.png",
 		"layer0.opacity": 0.0
 	},
 	{
@@ -140,7 +140,7 @@
 	{
 		"class": "tab_close_button",
 		"parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-		"layer1.texture": "Theme - Nil/assets/tab-button-close-dirty.png"
+		"layer1.texture": "Theme - Nil/assets/dark/tabs/tab-button-close-dirty.png"
 	},
 	{
 		//	- Tab close hover action
@@ -485,44 +485,44 @@
 	//	- Sidebar open files close/dirty
 	{
 		"class": "close_button",
-		"layer0.texture": "Theme - Nil/assets/tab-button-close-hover.png",
+		"layer0.texture": "Theme - Nil/assets/dark/tabs/tab-button-close-hover.png",
 		"layer0.opacity": 0.5,
 		"layer0.inner_margin": 4,
 		"layer1.opacity": 0.0,
-		"layer1.texture":  "Theme - Nil/assets/tab-button-close.png",
+		"layer1.texture":  "Theme - Nil/assets/dark/tabs/tab-button-close.png",
 		"layer1.inner_margin": 4,
 		"content_margin": [8, 8]
 	},
 	{
 		"class": "close_button",
 		"attributes": ["dirty"],
-		"layer0.texture": "Theme - Nil/assets/tab-button-dirty.png",
+		"layer0.texture": "Theme - Nil/assets/dark/tabs/tab-button-dirty.png",
 		"layer0.opacity": 0.5
 	},
 	{
 		"class": "close_button",
 		"attributes": ["hover"],
-		"layer0.texture": "Theme - Nil/assets/tab-button-close-hover.png",
+		"layer0.texture": "Theme - Nil/assets/dark/tabs/tab-button-close-hover.png",
 		"layer1.opacity": 0.5,
-		"layer1.texture": "Theme - Nil/assets/tab-button-close.png"
+		"layer1.texture": "Theme - Nil/assets/dark/tabs/tab-button-close.png"
 	},
 	{
 		"class": "close_button",
 		"attributes": ["hover", "dirty"],
 		"layer1.opacity": 0.5,
-		"layer1.texture": "Theme - Nil/assets/tab-button-close-dirty.png"
+		"layer1.texture": "Theme - Nil/assets/dark/tabs/tab-button-close-dirty.png"
 	},
 	{
 		"class": "close_button",
 		"attributes": ["pressed"],
 		"layer1.opacity": 1.0,
-		"layer1.texture": "Theme - Nil/assets/tab-button-close.png"
+		"layer1.texture": "Theme - Nil/assets/dark/tabs/tab-button-close.png"
 	},
 	{
 		"class": "close_button",
 		"attributes": ["pressed", "dirty"],
 		"layer1.opacity": 1.0,
-		"layer1.texture": "Theme - Nil/assets/tab-button-close-dirty.png"
+		"layer1.texture": "Theme - Nil/assets/dark/tabs/tab-button-close-dirty.png"
 	},
 
 	//	- Sidebar group closed
