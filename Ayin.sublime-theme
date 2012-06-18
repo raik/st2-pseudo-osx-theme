@@ -172,10 +172,10 @@
 
 	{
 		"class": "fold_button_control",
-		"layer0.texture": "Theme - Nil/assets/arrow-right.png",
+		"layer0.texture": "Theme - Nil/assets/arrows/arrow-right.png",
 		"layer0.opacity": 1.0,
 		"layer0.inner_margin": 0,
-		"layer1.texture": "Theme - Nil/assets/arrow-right-hover.png",
+		"layer1.texture": "Theme - Nil/assets/arrows/arrow-right-hover.png",
 		"layer1.opacity": 0.0,
 		"layer1.inner_margin": 0,
 		"content_margin": [9, 7, 8, 6]
@@ -195,8 +195,8 @@
 	{
 		"class": "fold_button_control",
 		"attributes": ["expanded"],
-		"layer0.texture": "Theme - Nil/assets/arrow-down.png",
-		"layer1.texture": "Theme - Nil/assets/arrow-down-hover.png"
+		"layer0.texture": "Theme - Nil/assets/arrows/arrow-down.png",
+		"layer1.texture": "Theme - Nil/assets/arrows/arrow-down-hover.png"
 	},
 
 
@@ -521,38 +521,38 @@
 	{
 		"class": "disclosure_button_control",
 		"content_margin": [9, 7, 8, 6],
-		"layer0.texture": "Theme - Nil/assets/arrow-right.png",
+		"layer0.texture": "Theme - Nil/assets/arrows/arrow-right.png",
 		"layer0.opacity": 1.0,
 		"layer0.inner_margin": 0
 	},
 	{
 		"class": "disclosure_button_control",
 		"parents": [{"class": "tree_row", "attributes": ["hover"]}],
-		"layer0.texture": "Theme - Nil/assets/arrow-right-hover.png"
+		"layer0.texture": "Theme - Nil/assets/arrows/arrow-right-hover.png"
 	},
 	{
 		"class": "disclosure_button_control",
 		"parents": [{"class": "tree_row", "attributes": ["selected"]}],
-		"layer0.texture": "Theme - Nil/assets/arrow-right-hover.png"
+		"layer0.texture": "Theme - Nil/assets/arrows/arrow-right-hover.png"
 	},
 
 	//	- Sidebar group open
 	{
 		"class": "disclosure_button_control",
 		"attributes": ["expanded"],
-		"layer0.texture": "Theme - Nil/assets/arrow-down.png"
+		"layer0.texture": "Theme - Nil/assets/arrows/arrow-down.png"
 	},
 	{
 		"class": "disclosure_button_control",
 		"attributes": ["expanded"],
 		"parents": [{"class": "tree_row", "attributes": ["hover"]}],
-		"layer0.texture": "Theme - Nil/assets/arrow-down-hover.png"
+		"layer0.texture": "Theme - Nil/assets/arrows/arrow-down-hover.png"
 	},
 	{
 		"class": "disclosure_button_control",
 		"attributes": ["expanded"],
 		"parents": [{"class": "tree_row", "attributes": ["selected"]}],
-		"layer0.texture": "Theme - Nil/assets/arrow-down-hover.png"
+		"layer0.texture": "Theme - Nil/assets/arrows/arrow-down-hover.png"
 	},
 
 
