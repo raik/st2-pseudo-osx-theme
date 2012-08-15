@@ -84,6 +84,15 @@ either, simply point your `color_scheme` preference to
 Installation
 ------------------------------------------------------------------------
 
+#### Package Control
+
+If you have Package Control installed, you simply need to open the
+Package Install window and select "Theme - Nil". After that, skip ahead
+to the "Activating" section of this README.
+
+
+#### Installation via Git
+
 You can download or clone the repository into your Sublime Text 2
 `Packages` directory. To do this, simply navigate to
 `~/Library/Application Support/Sublime Text 2/Packages` (or wherever it
@@ -99,11 +108,11 @@ out of your screen, so remember, put it in the right directory.
 [shubby]: http://en.wikipedia.org/wiki/Shub-Niggurath
 
 
-Manually Downloading
-------------------------------------------------------------------------
+#### Manually Downloading
 
-Rename the folder to `Theme - Nil` and put it in your `Packages`
-directory.  That's it.
+If you choose to download an archive of this repo from GitHub, you must
+rename the extracted folder to `Theme - Nil` and put it in your
+`Packages` directory.  That's it -- simple.
 
 
 Activating
