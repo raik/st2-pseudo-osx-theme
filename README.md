@@ -31,15 +31,37 @@ grey and arguably softer colors, though should still remain as pseudo-
 functional as its dark counterpart.
 
 
+Tab Highlights
+------------------------------------------------------------------------
+
+In order to see modified tabs with an orange highlight, you'll need to
+enable the `highlight_modified_tabs` setting in your preferences. This
+is not enabled by default and the theme does not require it to function,
+as such it's an optional thing you can enable that the theme supports if
+you choose to make use of it.
+
+
 HDPI Displays
 ------------------------------------------------------------------------
 
 This theme includes HDPI images for displays that support HDPI on Mac
 OS X, such as the recent (as of this writing) MacBook Pro with the
-retina display.  You can see a screenshot of it [here][HDPI-capture].
+retina display.  Both screenshots above are in HDPI.
 
-[HDPI-capture]:
-    https://github.com/nilium/st2-nil-theme/raw/master/hdpi.png
+
+Fonts
+------------------------------------------------------------------------
+
+In the above screenshots, the font in use is [PragmataPro], designed by
+Fabrizio Schiavi. In previous screenshots, the font in use was [Envy Code R],
+by Damien Guard. The former is an excellent font, but is not free. The
+latter is also an excellent font and free. Neither font ships with this
+theme package. My personal preference these days is PragmataPro, but I
+had no particular font choice in mind for the theme and the important
+thing is that you use what you like.
+
+[PragmataPro]: http://www.fsd.it/fonts/pragmatapro.htm
+[Envy Code R]: http://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released
 
 
 Color Schemes
@@ -74,6 +96,8 @@ directory otherwise the theme won't locate its assets and will take on
 an eldritch appearance. You don't want [Shub-Niggurath][shubby] crawling
 out of your screen, so remember, put it in the right directory.
 
+[shubby]: http://en.wikipedia.org/wiki/Shub-Niggurath
+
 
 Manually Downloading
 ------------------------------------------------------------------------
@@ -103,7 +127,3 @@ Assuming you have then installed it correctly, it should show the theme.
 Due to what I assume is settings from previous themes surviving, you may
 wish to restart Sublime Text 2 as well, but otherwise you should be good
 to go.
-
-
-
-[shubby]: http://en.wikipedia.org/wiki/Shub-Niggurath
