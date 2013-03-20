@@ -87,7 +87,7 @@
 		"class": "tab_label",
 		"fg": [180, 180, 180],
 		"shadow_color": [0, 0, 0, 200],
-		"shadow_offset": [0, 1]
+		"shadow_offset": [0, 0.5]
 	},
 
 	//	- Active tab label
@@ -95,7 +95,7 @@
 		"class": "tab_label",
 		"parents": [{"class": "tab_control", "attributes": ["selected"]}],
 		"shadow_color": [0, 0, 0, 165],
-		"shadow_offset": [0, 1],
+		"shadow_offset": [0, 0.5],
 		"fg": [240, 240, 240, 255]
 	},
 
@@ -335,7 +335,7 @@
 		"class": "label_control",
 		"parents": [{"class": "panel_control"}],
 		"shadow_color": [0, 0, 0],
-		"shadow_offset": [0, 1]
+		"shadow_offset": [0, 0.5]
 	},
 	//	- Button labels
 	{
@@ -343,7 +343,7 @@
 		"parents": [{"class": "button_control"}],
 		"color": [230, 230, 230],
 		"shadow_color": [0, 0, 0],
-		"shadow_offset": [0, 1]
+		"shadow_offset": [0, 0.5]
 	},
 
 
@@ -363,7 +363,7 @@
 	{
 		"class": "tool_tip_label_control",
 		"color": [160, 160, 160],
-		"shadow_offset": [0, 1],
+		"shadow_offset": [0, 0.5],
 		"shadow_color": [0, 0, 0, 255]
 	},
 
@@ -391,7 +391,7 @@
 		"font.size": 10,
 		"color": [160, 160, 160],
 		"shadow_color": [0, 0, 0],
-		"shadow_offset": [0, 1]
+		"shadow_offset": [0, 0.5]
 	},
 
 
@@ -454,7 +454,7 @@
 		"color": [180, 180, 180],
 		"font.bold": true,
 		"shadow_color": [0, 0, 0],
-		"shadow_offset": [0, 1]
+		"shadow_offset": [0, 0.5]
 	},
 	{
 		"class": "sidebar_heading",
@@ -466,7 +466,7 @@
 		"class": "sidebar_label",
 		"color": [180, 180, 180],
 		"shadow_color": [0, 0, 0],
-		"shadow_offset": [0, 1]
+		"shadow_offset": [0, 0.5]
 	},
 	{
 		"class": "sidebar_label",
@@ -479,7 +479,7 @@
 		"parents": [{"class": "tree_row", "attributes": ["selected"]}],
 		"color": [240, 240, 240],
 		"shadow_color": [0, 0, 0],
-		"shadow_offset": [0, 1]
+		"shadow_offset": [0, 0.5]
 	},
 
 	//	- Sidebar open files close/dirty
