@@ -437,10 +437,15 @@
 	//	- Sidebar heading
 	{
 		"class": "sidebar_heading",
-		"color": [100, 100, 100],
+		"color": [100, 64, 180],
 		"font.bold": true,
 		"shadow_color": [255, 255, 255, 160],
 		"shadow_offset": [0, 0.5]
+	},
+	{
+		"class": "sidebar_heading",
+		"settings": ["disable_colored_group_labels"],
+		"color": [100, 100, 100]
 	},
 	{
 		"class": "sidebar_heading",
@@ -464,7 +469,13 @@
 		"parents": [{"class": "tree_row", "attributes": ["expandable"]}],
 		"settings": ["bold_folder_labels"],
 		"font.bold": true,
-		"color": [90, 64, 130]	// text is bold, so make the color a bit sublter
+		"color": [100, 64, 180]	// text is bold, so make the color a bit sublter
+	},
+	{
+		"class": "sidebar_label",
+		"parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+		"settings": ["disable_colored_folder_labels"],
+		"color": [80, 80, 80]
 	},
 	{	//	Sidebar selected entry label
 		"class": "sidebar_label",
