@@ -31,6 +31,16 @@ grey and arguably softer colors, though should still remain as pseudo-
 functional as its dark counterpart.
 
 
+Group & Folder Colors
+------------------------------------------------------------------------
+
+Both Ayin and Nil have sidebar label colors for groups and folders.
+Either can disabled by setting the two preferences:
+
+    "disable_colored_group_labels": true,   // Disable group colors
+    "disable_colored_folder_labels": true,  // Disable folder colors
+
+
 Tab Highlights
 ------------------------------------------------------------------------
 
