@@ -31,14 +31,25 @@ grey and arguably softer colors, though should still remain as pseudo-
 functional as its dark counterpart.
 
 
-Group & Folder Colors
+Color Schemes
 ------------------------------------------------------------------------
 
-Both Ayin and Nil have sidebar label colors for groups and folders.
-Either can disabled by setting the two preferences:
+The Nil theme package comes with the two color schemes seen in the both
+the light and dark screenshots respectively:
 
-    "disable_colored_group_labels": true,   // Disable group colors
-    "disable_colored_folder_labels": true,  // Disable folder colors
+* `Tubnil.tmTheme` → My personal variation of the Tubster theme for
+  TextMate.  This is the dark color scheme.
+
+* `Tubnil Bright.tmTheme` → A variation on the above Tubnil theme for
+  folks who like bright color schemes.
+
+* `Big Duo.tmTheme` → Another variation on Tubnil, this time with
+  a slightly lighter background color, arguably less intense colors,
+  and so on. Cast in the name of god and all that.
+
+Both can be found in the root directory of the package, so to use it
+either, simply point your `color_scheme` preference to
+`Theme - Nil/Tubnil.tmTheme` or `Theme - Nil/Tubnil Bright.tmTheme`.
 
 
 Tab Highlights
@@ -49,6 +60,16 @@ enable the `highlight_modified_tabs` setting in your preferences. This
 is not enabled by default and the theme does not require it to function,
 as such it's an optional thing you can enable that the theme supports if
 you choose to make use of it.
+
+
+Group & Folder Colors
+------------------------------------------------------------------------
+
+Both Ayin and Nil have sidebar label colors for groups and folders.
+Either can disabled by setting the two preferences:
+
+    "disable_colored_group_labels": true,   // Disable group colors
+    "disable_colored_folder_labels": true,  // Disable folder colors
 
 
 HDPI Displays
@@ -72,23 +93,6 @@ thing is that you use what you like.
 
 [PragmataPro]: http://www.fsd.it/fonts/pragmatapro.htm
 [Envy Code R]: http://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released
-
-
-Color Schemes
-------------------------------------------------------------------------
-
-The Nil theme package comes with the two color schemes seen in the both
-the light and dark screenshots respectively:
-
-* `Tubnil.tmTheme` → My personal variation of the Tubster theme for
-  TextMate.  This is the dark color scheme.
-
-* `Tubnil Bright.tmTheme` → A variation on the above Tubnil theme for
-  folks who like bright color schemes.
-
-Both can be found in the root directory of the package, so to use it
-either, simply point your `color_scheme` preference to
-`Theme - Nil/Tubnil.tmTheme` or `Theme - Nil/Tubnil Bright.tmTheme`.
 
 
 Installation
