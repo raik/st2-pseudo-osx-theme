@@ -153,6 +153,21 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Namespace (definition)</string>
+			<key>scope</key>
+			<string>entity.name.section.namespace</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#003A9640</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#00215E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Inherited Class</string>
 			<key>scope</key>
 			<string>entity.other.inherited-class</string>
