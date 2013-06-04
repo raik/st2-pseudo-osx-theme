@@ -7,6 +7,7 @@ _Nil UI theme for Sublime Text 2_
 Nil is the dark theme for the overall Nil theme package.  Yes, there's
 a light theme -- scroll down if that's what you want.  They're both in
 the same repository, though they have different names just to be fancy.
+The color scheme pictured above is Big Duo.
 
 This theme is based on [Raik Ilves's Pseudo OSX
 theme](https://github.com/raik/st2-pseudo-osx-theme), which is in turn
@@ -28,7 +29,8 @@ _Ayin UI theme for Sublime Text 2_
 
 Ayin is the light theme of the Nil theme package.  It features a lot of
 grey and arguably softer colors, though should still remain as pseudo-
-functional as its dark counterpart.
+functional as its dark counterpart. The color scheme pictured above is
+Tubnil Bright.
 
 
 Color Schemes
@@ -38,7 +40,7 @@ The Nil theme package comes with the two color schemes seen in the both
 the light and dark screenshots respectively:
 
 * `Tubnil.tmTheme` → My personal variation of the Tubster theme for
-  TextMate.  This is the dark color scheme.
+  TextMate.  This is the original dark color scheme.
 
 * `Tubnil Bright.tmTheme` → A variation on the above Tubnil theme for
   folks who like bright color schemes.
@@ -49,7 +51,7 @@ the light and dark screenshots respectively:
 
 Both can be found in the root directory of the package, so to use it
 either, simply point your `color_scheme` preference to
-`Theme - Nil/Tubnil.tmTheme` or `Theme - Nil/Tubnil Bright.tmTheme`.
+`Theme - Nil/Tubnil.tmTheme` or one of the other color schemes.
 
 
 Options
