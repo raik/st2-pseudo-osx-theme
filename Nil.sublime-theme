@@ -591,7 +591,7 @@
 	/** Colored folder icons (disabled by default) **/
 	{
 		"class": "disclosure_button_control",
-		"settings": ["colored_folders"],
+		"settings": ["colored_folder_glyphs"],
 		"layer0.tint": [230, 200, 255],
 		"layer1.tint": [230, 200, 255],
 		"layer2.tint": [190, 140, 255],
@@ -599,7 +599,7 @@
 	},
 	{
 		"class": "disclosure_button_control",
-		"settings": ["!colored_folders"],
+		"settings": ["!colored_folder_glyphs"],
 		"layer0.tint": [162, 162, 162],
 		"layer1.tint": [162, 162, 162],
 		"layer2.tint": [180, 180, 180],
