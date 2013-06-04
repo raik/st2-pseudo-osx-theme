@@ -52,24 +52,30 @@ either, simply point your `color_scheme` preference to
 `Theme - Nil/Tubnil.tmTheme` or `Theme - Nil/Tubnil Bright.tmTheme`.
 
 
-Tab Highlights
+Options
 ------------------------------------------------------------------------
 
-In order to see modified tabs with an orange highlight, you'll need to
-enable the `highlight_modified_tabs` setting in your preferences. This
-is not enabled by default and the theme does not require it to function,
-as such it's an optional thing you can enable that the theme supports if
-you choose to make use of it.
+There are a handful of options you can use to customize the appearance
+of both the Nil and Ayin themes. All options are boolean values and
+disabled by default. Their keys and descriptions follow:
 
+* `highlight_modified_tabs` — If true, will display an orange bar under
+  tabs with modified buffers.
+* `sidebar_folders` — If true, will display a folder icon beside folders
+  in the sidebar instead of a disclosure triangle. Sidebar folders are
+  off by default.
+* `colored_folder_glyphs` — If true, will tint either folder icons or
+  disclosure triangles in the sidebar (only the sidebar) purple.
+* `disable_colored_group_labels` — If true, will disable the colored
+  group labels. Group labels are the things that say "Group 1" and 2 and
+  so on in the sidebar. They're only visible if you have open files
+  shown. Colored group labels are enabled by default.
+* `disable_colored_folder_labels` — If true, will disable the colored
+  folder labels in the sidebar. This is independent of group label
+  coloring. Colored folder labels are enabled by default.
 
-Group & Folder Colors
-------------------------------------------------------------------------
-
-Both Ayin and Nil have sidebar label colors for groups and folders.
-Either can disabled by setting the two preferences:
-
-    "disable_colored_group_labels": true,   // Disable group colors
-    "disable_colored_folder_labels": true,  // Disable folder colors
+To set any of these properties, place them and their values in your user
+preferences file.
 
 
 HDPI Displays
