@@ -18,11 +18,11 @@
 		"layer0.texture": "Theme - Nil/assets/ayin/tabset-bg.png",
 		"layer0.inner_margin": [2, 6],
 		"layer0.opacity": 1.0,
-		"content_margin": [-13, 0, -13, -5], // left, top, right, bottom
-		"tab_overlap": 25,
+		"content_margin": [0, 0, 0, 1], // left, top, right, bottom
+		"tab_overlap": 0,
 		"tab_width": 180,
 		"tab_min_width": 40,
-		"tab_height": 30,
+		"tab_height": 24,
 		"mouse_wheel_switch": false
 	},
 	{
@@ -34,25 +34,25 @@
 	/** Tab element **/
 	{
 		"class": "tab_control",
-		"content_margin": [25, 0, 25, 0],
+		"content_margin": [8, 4, 8, 4],
 		"max_margin_trim": 0,
 		"hit_test_level": 0.5,
 
 		//	Tab texture (default: inactive)
 		"layer0.texture": "Theme - Nil/assets/ayin/tabs/tab-inactive.png",
-		"layer0.inner_margin": [23, 8],
+		"layer0.inner_margin": [6, 6],
 		"layer0.opacity": 1.0,
 
 		//	Hover texture (default: clean)
 		"layer1.texture": "Theme - Nil/assets/ayin/tabs/tab-hover.png",
-		"layer1.inner_margin": [14, 10],
+		"layer1.inner_margin": [6, 6],
 		"layer1.opacity": 0.0
 	},
 	{
 		/** Tab close state **/
 		"class": "tab_control",
 		"settings": ["show_tab_close_buttons"],
-		"content_margin": [30, 0, 20, 7]
+		"content_margin": [8, 4, 4, 4]
 	},
 	{
 		/** Hover tab state **/
