@@ -16,7 +16,7 @@
 		"layer0.texture": "Theme - Nil/assets/dark/tabset-bg.png",
 		"layer0.inner_margin": [2, 6],
 		"layer0.opacity": 1.0,
-		"content_margin": [0, 0, 0, 1], // left, top, right, bottom
+		"content_margin": [0, 0, 0, 0], // left, top, right, bottom
 		"tab_overlap": 0,
 		"tab_width": 180,
 		"tab_min_width": 40,
