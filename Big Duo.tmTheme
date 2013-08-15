@@ -405,6 +405,17 @@
 				<string></string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Literate CoffeeScript Block</string>
+			<key>scope</key>
+			<string>source.litcoffee markup.raw.block</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#3e314550</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>02019C6E-C747-44D5-94B5-110B867C1C22</string>
