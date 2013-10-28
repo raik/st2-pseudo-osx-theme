@@ -419,6 +419,39 @@
 				<string></string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter deleted</string>
+			<key>scope</key>
+			<string>markup.deleted.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E45B3E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter inserted</string>
+			<key>scope</key>
+			<string>markup.inserted.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#4A6600</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter changed</string>
+			<key>scope</key>
+			<string>markup.changed.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#885F00</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>2F8D3857-D317-4553-853D-CB6D9CF1D85F</string>
