@@ -220,7 +220,7 @@
 			<key>name</key>
 			<string>Constant</string>
 			<key>scope</key>
-			<string>constant</string>
+			<string>constant, markup.heading</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -309,15 +309,56 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markup tag</string>
+			<string>SGML Type</string>
 			<key>scope</key>
-			<string>meta.tag, declaration.tag, entity.name.tag, entity.other.attribute-name</string>
+			<string>meta.tag.sgml</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#00312F</string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#00F6FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup General</string>
+			<key>scope</key>
+			<string>meta.tag, markup.definition.note</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
 				<string>#bd86fa</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup attribute</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#8aa6ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup tag</string>
+			<key>scope</key>
+			<string>declaration.tag, entity.name.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#ffa686</string>
 			</dict>
 		</dict>
 		<dict>
