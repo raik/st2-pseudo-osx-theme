@@ -220,7 +220,7 @@
 			<key>name</key>
 			<string>Constant</string>
 			<key>scope</key>
-			<string>constant</string>
+			<string>constant, markup.heading</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
