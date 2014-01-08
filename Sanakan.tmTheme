@@ -32,11 +32,6 @@
 			<string>Source</string>
 			<key>scope</key>
 			<string>source, text</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -45,8 +40,6 @@
 			<string>comment</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#60859f</string>
 			</dict>
@@ -69,8 +62,6 @@
 			<string>keyword</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#af0dca</string>
 			</dict>
@@ -117,8 +108,6 @@
 			<dict>
 				<key>background</key>
 				<string>#ff65a025</string>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#ef3580</string>
 			</dict>
@@ -132,8 +121,6 @@
 			<dict>
 				<key>background</key>
 				<string>#ff65a025</string>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#ef3580</string>
 			</dict>
@@ -147,8 +134,6 @@
 			<dict>
 				<key>background</key>
 				<string>#abe0c2</string>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#4682d0</string>
 			</dict>
@@ -162,8 +147,6 @@
 			<dict>
 				<key>background</key>
 				<string>#ffced0</string>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#ff0900</string>
 			</dict>
@@ -175,8 +158,6 @@
 			<string>constant.numeric</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#663399</string>
 			</dict>
@@ -188,8 +169,6 @@
 			<string>punctuation.definition.string.begin, punctuation.definition.string.end</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#6e3a00</string>
 			</dict>
@@ -201,8 +180,6 @@
 			<string>variable.language, variable.other</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#0761f8</string>
 			</dict>
@@ -214,8 +191,6 @@
 			<string>constant</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#cb5d26</string>
 			</dict>
@@ -238,8 +213,6 @@
 			<string>constant.language</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#b85117</string>
 			</dict>
@@ -251,8 +224,6 @@
 			<string>string</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>background</key>
 				<string>#abcaae45</string>
 				<key>foreground</key>
@@ -266,8 +237,6 @@
 			<string>support.function</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#446a10</string>
 			</dict>
@@ -279,8 +248,6 @@
 			<string>support.type</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#916341</string>
 			</dict>
@@ -292,8 +259,6 @@
 			<string>support.constant</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#6633cc</string>
 			</dict>
@@ -305,8 +270,6 @@
 			<string>meta.tag, declaration.tag, entity.name.tag, entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#427905</string>
 			</dict>
@@ -331,8 +294,6 @@
 			<string>constant.character.escaped, constant.character.escape, string source, string source.ruby</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#cf1984</string>
 			</dict>
@@ -379,8 +340,6 @@
 			<dict>
 				<key>background</key>
 				<string>#f4bc85</string>
-				<key>fontStyle</key>
-				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -392,8 +351,6 @@
 			<dict>
 				<key>background</key>
 				<string>#b194e3</string>
-				<key>fontStyle</key>
-				<string></string>
 			</dict>
 		</dict>
 		<dict>
