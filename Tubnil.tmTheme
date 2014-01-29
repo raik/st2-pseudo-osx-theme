@@ -203,7 +203,7 @@
 			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
-			<string>variable.language, variable.other</string>
+			<string>variable.language, variable.other, variable.parameter</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
