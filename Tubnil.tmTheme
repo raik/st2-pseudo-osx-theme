@@ -342,6 +342,8 @@
 			<dict>
 				<key>background</key>
 				<string>#11401b</string>
+				<key>foreground</key>
+				<string>#cae297</string>
 			</dict>
 		</dict>
 		<dict>
@@ -353,6 +355,8 @@
 			<dict>
 				<key>background</key>
 				<string>#531c16</string>
+				<key>foreground</key>
+				<string>#fdc3ba</string>
 			</dict>
 		</dict>
 		<dict>
@@ -375,6 +379,19 @@
 			<dict>
 				<key>background</key>
 				<string>#4e1c6b</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Diff Change</string>
+			<key>scope</key>
+			<string>markup.changed</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#49410d</string>
+				<key>foreground</key>
+				<string>#f3e09c</string>
 			</dict>
 		</dict>
 		<dict>
