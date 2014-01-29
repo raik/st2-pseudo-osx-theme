@@ -427,6 +427,17 @@
 				<string>#FFCC33</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Embedded Source</string>
+			<key>scope</key>
+			<string>source source</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#ffffff08</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>02019C6E-C747-44D5-94B5-110B867C1C22</string>
