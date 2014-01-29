@@ -15,12 +15,16 @@
 				<string>#FFFFFF</string>
 				<key>foreground</key>
 				<string>#DAD6CD</string>
+				<key>inactiveSelection</key>
+				<string>#e8b8ff7f</string>
 				<key>invisibles</key>
 				<string>#404040</string>
 				<key>lineHighlight</key>
 				<string>#7B10552B</string>
 				<key>selection</key>
 				<string>#ba44e76d</string>
+				<key>selectionBorder</key>
+				<string>#c862e687</string>
 			</dict>
 		</dict>
 		<dict>
