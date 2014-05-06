@@ -967,6 +967,19 @@
 		"class": "icon_use_buffer",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
 		"layer0.texture": "Theme - Nil/assets/dark/icons/buffer-on.png"
+	},
+
+
+	{
+		"class": "icon_folder",
+		"layer0.opacity": 0.0,
+		"content_margin": [0, 0]
+	},
+
+	{
+		"class": "icon_file_type",
+		"layer0.opacity": 0.0,
+		"content_margin": [0, 0]
 	}
 
 ]
