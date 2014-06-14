@@ -674,8 +674,8 @@
 		"class": "text_line_control",
 		"layer0.texture": "Theme - Nil/assets/ayin/text-field.png",
 		"layer0.opacity": 1.0,
-		"layer0.inner_margin": [5, 5, 5, 5],
-		"content_margin": [5, 5, 5, 5]
+		"layer0.inner_margin": [8, 8, 8, 8],
+		"content_margin": [3, 3, 3, 3]
 	},
 
 
@@ -807,115 +807,186 @@
 
 /*==============================================================================
 	BOTTOM PANEL BUTTONS
+	On:  [16, 125, 255]
+	Off: [92, 92, 92]
 ==============================================================================*/
 
 	{
-		"class": "icon_button_control",
-		"content_margin": [4, 4]
+	    "class": "icon_button_control",
+	    "layer0.texture": "Theme - Nil/assets/glyphs/bg-center.png",
+	    "layer0.inner_margin": [4, 4],
+	    "layer0.opacity": 1.0,
+	    "layer0.tint": [240, 240, 240],
+	    "content_margin": [4, 4, 4, 4]
 	},
+
 	{
-		"class": "icon_button_control",
-		"attributes": ["pressed"]
+	    "class": "icon_button_control",
+	    "attributes": ["left"],
+	    "layer0.texture": "Theme - Nil/assets/glyphs/bg-left.png",
+	    "layer1.texture": "Theme - Nil/assets/glyphs/seg-isolated.png"
+	},
+
+	{
+	    "class": "icon_button_control",
+	    "attributes": ["right"],
+	    "layer0.texture": "Theme - Nil/assets/glyphs/bg-right.png",
+	    "layer1.texture": "Theme - Nil/assets/glyphs/seg-isolated.png"
+	},
+
+	{
+	    "class": "icon_button_control",
+	    "attributes": ["left", "right"],
+	    "layer0.texture": "Theme - Nil/assets/glyphs/bg-isolated.png",
+	    "layer1.texture": "Theme - Nil/assets/glyphs/seg-isolated.png"
 	},
 
 	/** Regex search button **/
 	{
 		"class": "icon_regex",
-		"layer0.texture": "Theme - Nil/assets/ayin/icons/regex-off.png",
+		"layer0.texture": "Theme - Nil/assets/glyphs/regex.png",
 		"layer0.opacity": 1.0,
-		"content_margin": [9, 10]
+		"layer0.tint": [98, 98, 98],
+		"content_margin": [8, 7]
+	},
+	{
+		"class": "icon_regex",
+		"parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+		"layer0.tint": [40, 100, 180]
 	},
 	{
 		"class": "icon_regex",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.texture": "Theme - Nil/assets/ayin/icons/regex-on.png"
+		"layer0.tint": [16, 125, 255]
 	},
 	/** Case sensitive search button **/
 	{
 		"class": "icon_case",
-		"layer0.texture": "Theme - Nil/assets/ayin/icons/case-off.png",
+		"layer0.texture": "Theme - Nil/assets/glyphs/case.png",
 		"layer0.opacity": 1.0,
-		"content_margin": [9, 10]
+		"layer0.tint": [98, 98, 98],
+		"content_margin": [8, 7]
+	},
+	{
+		"class": "icon_case",
+		"parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+		"layer0.tint": [40, 100, 180]
 	},
 	{
 		"class": "icon_case",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.texture": "Theme - Nil/assets/ayin/icons/case-on.png"
+		"layer0.tint": [16, 125, 255]
 	},
 	/** Match whole word search button **/
 	{
 		"class": "icon_whole_word",
-		"layer0.texture": "Theme - Nil/assets/ayin/icons/whole-word-off.png",
+		"layer0.texture": "Theme - Nil/assets/glyphs/word-only.png",
 		"layer0.opacity": 1.0,
-		"content_margin": [9, 10]
+		"layer0.tint": [98, 98, 98],
+		"content_margin": [8, 7]
+	},
+	{
+		"class": "icon_whole_word",
+		"parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+		"layer0.tint": [40, 100, 180]
 	},
 	{
 		"class": "icon_whole_word",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.texture": "Theme - Nil/assets/ayin/icons/whole-word-on.png"
+		"layer0.tint": [16, 125, 255]
 	},
 
 	/** Reverse search direction button **/
 	{
 		"class": "icon_reverse",
-		"layer0.texture": "Theme - Nil/assets/ayin/icons/reverse-off.png",
+		"layer0.texture": "Theme - Nil/assets/glyphs/reverse.png",
 		"layer0.opacity": 1.0,
-		"content_margin": [9, 10]
+		"layer0.tint": [98, 98, 98],
+		"content_margin": [8, 7]
+	},
+	{
+		"class": "icon_reverse",
+		"parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+		"layer0.tint": [40, 100, 180]
 	},
 	{
 		"class": "icon_reverse",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.texture": "Theme - Nil/assets/ayin/icons/reverse-on.png"
+		"layer0.tint": [16, 125, 255]
 	},
 	/** Search wrap button **/
 	{
 		"class": "icon_wrap",
-		"layer0.texture": "Theme - Nil/assets/ayin/icons/wrap-off.png",
+		"layer0.texture": "Theme - Nil/assets/glyphs/wrap.png",
 		"layer0.opacity": 1.0,
-		"content_margin": [9, 10]
+		"layer0.tint": [98, 98, 98],
+		"content_margin": [8, 7]
+	},
+	{
+		"class": "icon_wrap",
+		"parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+		"layer0.tint": [40, 100, 180]
 	},
 	{
 		"class": "icon_wrap",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.texture": "Theme - Nil/assets/ayin/icons/wrap-on.png"
+		"layer0.tint": [16, 125, 255]
 	},
 	/** Search in selection button **/
 	{
 		"class": "icon_in_selection",
-		"layer0.texture": "Theme - Nil/assets/ayin/icons/selection-off.png",
+		"layer0.texture": "Theme - Nil/assets/glyphs/in-selection.png",
 		"layer0.opacity": 1.0,
-		"content_margin": [9, 10]
+		"layer0.tint": [98, 98, 98],
+		"content_margin": [8, 7]
+	},
+	{
+		"class": "icon_in_selection",
+		"parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+		"layer0.tint": [40, 100, 180]
 	},
 	{
 		"class": "icon_in_selection",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.texture": "Theme - Nil/assets/ayin/icons/selection-on.png"
+		"layer0.tint": [16, 125, 255]
 	},
 
 	/** Preserve case button **/
 	{
 		"class": "icon_preserve_case",
-		"layer0.texture": "Theme - Nil/assets/ayin/icons/preserve-case-off.png",
+		"layer0.texture": "Theme - Nil/assets/glyphs/preserve-case.png",
 		"layer0.opacity": 1.0,
-		"content_margin": [9, 10]
+		"layer0.tint": [98, 98, 98],
+		"content_margin": [21, 7]
+	},
+	{
+		"class": "icon_preserve_case",
+		"parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+		"layer0.tint": [40, 100, 180]
 	},
 	{
 		"class": "icon_preserve_case",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.texture": "Theme - Nil/assets/ayin/icons/preserve-case-on.png"
+		"layer0.tint": [16, 125, 255]
 	},
 
 	/** Highlight results button **/
 	{
 		"class": "icon_highlight",
-		"layer0.texture": "Theme - Nil/assets/ayin/icons/highlight-off.png",
+		"layer0.texture": "Theme - Nil/assets/glyphs/highlight.png",
 		"layer0.opacity": 1.0,
-		"content_margin": [9, 10]
+		"layer0.tint": [98, 98, 98],
+		"content_margin": [8, 7]
+	},
+	{
+		"class": "icon_highlight",
+		"parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+		"layer0.tint": [40, 100, 180]
 	},
 	{
 		"class": "icon_highlight",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.texture": "Theme - Nil/assets/ayin/icons/highlight-on.png"
+		"layer0.tint": [16, 125, 255]
 	},
 
 
@@ -926,26 +997,38 @@
 	/** Show search context button **/
 	{
 		"class": "icon_context",
-		"layer0.texture": "Theme - Nil/assets/ayin/icons/context-off.png",
+		"layer0.texture": "Theme - Nil/assets/glyphs/context.png",
 		"layer0.opacity": 1.0,
-		"content_margin": [9, 10]
+		"layer0.tint": [98, 98, 98],
+		"content_margin": [8, 7]
+	},
+	{
+		"class": "icon_context",
+		"parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+		"layer0.tint": [40, 100, 180]
 	},
 	{
 		"class": "icon_context",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.texture": "Theme - Nil/assets/ayin/icons/context-on.png"
+		"layer0.tint": [16, 125, 255]
 	},
 	/** Use search buffer **/
 	{
 		"class": "icon_use_buffer",
-		"layer0.texture": "Theme - Nil/assets/ayin/icons/buffer-off.png",
+		"layer0.texture": "Theme - Nil/assets/glyphs/buffer.png",
 		"layer0.opacity": 1.0,
-		"content_margin": [9, 10]
+		"layer0.tint": [98, 98, 98],
+		"content_margin": [8, 7]
+	},
+	{
+		"class": "icon_use_buffer",
+		"parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+		"layer0.tint": [40, 100, 180]
 	},
 	{
 		"class": "icon_use_buffer",
 		"parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-		"layer0.texture": "Theme - Nil/assets/ayin/icons/buffer-on.png"
+		"layer0.tint": [16, 125, 255]
 	},
 
 
